@@ -1,6 +1,6 @@
 # CTF Challenges
 
-This repository contains an archive of CTF challenges I developed in the last few years for various CTFs organized by my team -- [Dragon Sector](https://dragonsector.pl/). They are mostly software exploitation tasks with varying difficulty levels, for the x86/x64 architectures and Windows/Linux operating systems. Each subdirectory contains basic task information, original description, solution in the form of a short summary or a few slides from the post-CTF presentation, exploit code and optionally links to external solutions.
+This repository contains an archive of CTF challenges I developed in the last few years for various CTFs organized by my team – [Dragon Sector](https://dragonsector.pl/). They are mostly software exploitation tasks with varying difficulty levels, for the x86/x64 architectures and Windows/Linux operating systems. Each subdirectory contains basic task information, original description, solution in the form of a short summary or a few slides from the post-CTF presentation, exploit code and optionally links to external solutions.
 
 The challenges are as follows:
 
