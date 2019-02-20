@@ -9,11 +9,6 @@
 # Scoring:          50 pts (easy)
 # Number of solves: 2 out of 11 participants
 
-__author__ = "Mateusz Jurczyk"
-__copyright__ = "Copyright 2014, Mateusz Jurczyk"
-__license__ = "Apache"
-__version__ = "2.0"
-
 import struct
 
 def Handler_Add(buffer, idx, arg):
