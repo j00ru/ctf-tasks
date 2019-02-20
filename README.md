@@ -22,7 +22,7 @@ The challenges are as follows:
 
 ## Running the tasks
 
-For exploitation problems, if the program listens on a port by default, leave it running and connect to the port to interact with the task. If it reads and writes to/from `stdin` and `stdout`, you should bind it to a TCP port of your choice (e.g. with netcat or socat on Linux, and the enclosed AppJailLauncher.exe tool on Windows), and connect to it to exploit the vulnerabilities. The goal is to obtain the contents of the flag.txt (or similar) file in the task's current directory.
+For exploitation problems, if the program listens on a port by default, leave it running and connect to the port to interact with the task. If it reads and writes to/from `stdin` and `stdout`, you should bind it to a TCP port of your choice (e.g. with `netcat` or `socat` on Linux, and the enclosed `AppJailLauncher.exe` tool on Windows), and connect to it to exploit the vulnerabilities. The goal is to obtain the contents of the flag.txt (or similar) file in the task's current directory.
 
 For reverse-engineering problems, the goal is to extract the flag from the provided executable file.
 
