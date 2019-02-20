@@ -30,7 +30,7 @@ For reverse-engineering problems, the goal is to extract the flag from the provi
 
 ![Dragon Sector](logo.png)
 
-Dragon Sector is a Polish security Capture The Flag team. It was created in February 2013 and currently has 17 active members. We frequently participate in both on0line and offline security Capture The Flag competitions, publish write-ups on CTF tasks, and sometimes even organize CTFs.
+[Dragon Sector](https://dragonsector.pl/) is a Polish security Capture The Flag team. It was created in February 2013 and currently has 17 active members. We frequently participate in both on0line and offline security Capture The Flag competitions, publish write-ups on CTF tasks, and sometimes even organize CTFs.
 
 You can find us on [CTFTime](https://ctftime.org/team/3329), [our blog](https://blog.dragonsector.pl/) and [Twitter](https://twitter.com/DragonSectorCTF).
 
