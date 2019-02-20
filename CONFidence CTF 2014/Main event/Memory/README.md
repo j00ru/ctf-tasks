@@ -1,4 +1,4 @@
-# Basic information
+# Memory
 
 | Task             | Memory                   |
 |------------------|--------------------------|

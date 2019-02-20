@@ -1,4 +1,4 @@
-# Basic information
+# Crypto Machine
 
 | Task             | Crypto Machine              |
 |------------------|-----------------------------|

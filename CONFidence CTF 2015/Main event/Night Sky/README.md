@@ -1,4 +1,4 @@
-# Basic information
+# Night Sky
 
 | Task             | Night Sky                 |
 |------------------|---------------------------|

@@ -1,4 +1,4 @@
-# Basic information
+# Fastcalc-hardened
 
 | Task             | Fastcalc-hardened         |
 |------------------|---------------------------|

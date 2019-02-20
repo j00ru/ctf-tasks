@@ -1,4 +1,4 @@
-# Basic information
+# Multipurpose Calculation Machine
 
 | Task             | Multipurpose Calculation Machine |
 |------------------|----------------------------------|

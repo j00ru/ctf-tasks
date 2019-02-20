@@ -1,4 +1,4 @@
-# Basic information
+# Fastcalc
 
 | Task             | Fastcalc                   |
 |------------------|----------------------------|

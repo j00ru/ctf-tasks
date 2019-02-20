@@ -1,4 +1,4 @@
-# Basic information
+# Pipeline
 
 | Task             | Pipeline                   |
 |------------------|----------------------------|
