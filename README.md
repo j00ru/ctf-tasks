@@ -6,6 +6,7 @@ The challenges are as follows:
 
 | Name                             | Competition                  | Category                   | Platform | Arch. | Difficulty  |
 |----------------------------------|------------------------------|----------------------------|----------|-------|-------------|
+| [BadType](Dragon%20CTF%202019/Teaser/BadType)                          | Dragon CTF 2019 (Teaser)     | Reverse Engineering        | Windows  | x64   | Medium      |
 | [Pipeline](Dragon%20CTF%202018/Main%20event/Pipeline)                         | Dragon CTF 2018              | Exploitation / Programming | Linux    | x64   | Easy/medium |
 | [Production](Dragon%20CTF%202018/Teaser/Production)                       | Dragon CTF 2018 (Teaser)     | Exploitation               | Linux    | x64   | Easy/medium |
 | [Filesystem](CONFidence%20CTF%202017/Main%20event/Filesystem)                       | CONFidence CTF 2017          | Exploitation               | Linux    | x64   | Medium      |
