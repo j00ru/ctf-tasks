@@ -20,6 +20,8 @@ We found this boring Windows program that only ever seems to display one message
 
 The task is a short, statically built 64-bit Windows PE file. It takes the flag in `argv[1]` (should be 50 bytes long), converts it to 200 2-bit values and insert them into an OpenType font stream in static memory. Then, it loads the font via `AddFontMemResourceEx`, creates a window and displays a "BAD FLAG:\\" string using the custom font. Or at least it appears to do so, because in fact our font only defines the "B" glyph, which contains the outline of the whole "BAD FLAG" message. The purpose is to make the program display a "GOOD FLAG" message.
 
+![The main program window](screenshot.png)
+
 The challenge itself is implemented in OpenType Charstrings (http://www.adobe.com/content/dam/acom/en/devnet/font/pdfs/5177.Type2.pdf), i.e. programs for a relatively simple VM interpreted by the system font engine (the `atmfd.dll` Windows driver in Windows <= 8.1, and the user-mode `fontdrvhost.exe` process in Windows 10). The purpose of the task is to extract the font from static memory, decompile it (preferably with the `ttx` tool from the `fontTools` suite) and analyze it to find a flag that will pass all of the internal checks.
 
 The key to the problem is to realize that the CharStrings actually implement a maze of size 43x41 that the player needs to go through with a correct sequence of 200 moves (each of them up/down/left/right). The player starts at position (1, 0) and must reach (41, 40):
