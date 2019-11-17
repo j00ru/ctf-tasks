@@ -17,25 +17,25 @@ I think it's nice that Windows exploitation CTF tasks are gaining in popularity.
 
 During the CTF, the challenge was running on Windows Server 1809 x64. In order to load the `SecureDrv.sys` driver, disable the Driver Signature Enforcement mechanism from an elevated command prompt:
 
-```bat
+```
 >bcdedit /set testsigning on
 ```
 
 Then reboot the system, and register a service (again from an elevated prompt), e.g.:
 
-```bat
+```
 >sc create SecureDrv binPath=C:\Users\test\Desktop\SecureDrv.sys type=kernel
 ```
 
 and start it:
 
-```bat
+```
 >sc start SecureDrv
 ```
 
 Now you should be able to run `SecureClient.exe` and see the following output:
 
-```bat
+```
 >SecureClient.exe
 ---===[ SecureStorage Client, Dragon CTF 2019 ]===---
 [ ] Protect, unprotect?
@@ -43,7 +43,7 @@ Now you should be able to run `SecureClient.exe` and see the following output:
 
 If you wish to accurately model the CTF conditions, you can also configure Windows to automatically reboot on BSoD:
 
-```bat
+```
 >wmic RecoverOS set AutoReboot = True
 ```
 
