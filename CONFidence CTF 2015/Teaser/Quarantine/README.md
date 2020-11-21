@@ -19,7 +19,7 @@ The developers of this service think they have found a way to automatically thwa
 <p>
 
 1. Leak the address of the stack shadow memory by invoking the `give_me_the_flag` command.
-2. Exploit a use-after-free vulnerability of the `vm::VMState` object through a dangling pointer in the `globals::current_vm` pointer, when all virtual machines are removed. By filling up the ASAN quarantine (adjusted to 1 MB during the CTF instead of the default 256 MB settings), we can replace the freed `vm::VMSTate` object, and use it to zero-out arbitrary memory regions.
+2. Exploit a use-after-free vulnerability of the `vm::VMState` object through a dangling pointer in the `globals::current_vm` pointer, when all virtual machines are removed. By filling up the ASAN quarantine (adjusted to 1 MB during the CTF instead of the default 256 MB setting), we can replace the freed `vm::VMState` object, and use it to zero-out arbitrary memory regions.
 3. Zero out the shadow memory of the operation string buffer, and leak the shadow memory address of the buffer where the flag is loaded by `give_me_the_flag`.
 4. Zero out the second shadow memory using the same UAF bug, and successfully retrieve the flag.
 
