@@ -64,3 +64,7 @@ With the help of the oracle, one can determine the value of each byte of the fla
 
 </p>
 </details>
+
+## External write-ups
+
+1. https://faraz.faith/2020-11-23-dragonctf-bitmapmanager/
