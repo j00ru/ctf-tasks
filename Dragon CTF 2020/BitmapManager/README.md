@@ -17,7 +17,9 @@ Here's a software solution that meets all of your image management needs! It was
 
 <details><summary>Click to expand</summary>
 <p>
+
 Loading the flag in memory is half the battle. Now how can you get it out of there?
+
 </p>
 </details>
 
