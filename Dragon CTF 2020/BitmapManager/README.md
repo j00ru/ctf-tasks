@@ -1,6 +1,6 @@
-# BabyKernel
+# BitmapManager
 
-| Task             | BabyKernel                 |
+| Task             | BitmapManager              |
 |------------------|----------------------------|
 | Competition      | [Dragon CTF 2020](https://ctftime.org/event/1082)            |
 | Location         | Online                     |
