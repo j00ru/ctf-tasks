@@ -6,22 +6,23 @@ The challenges are as follows:
 
 | Name                             | Competition                  | Category                   | Platform | Arch. | Difficulty  |
 |----------------------------------|------------------------------|----------------------------|----------|-------|-------------|
-| [BitmapManager](Dragon%20CTF%202020/BitmapManager)                          | Dragon CTF 2020              | Exploitation               | Windows  | x64   | Hard        |
-| [BabyKernel](Dragon%20CTF%202019/Main%20event/BabyKernel)                          | Dragon CTF 2019              | Exploitation               | Windows  | x64   | Medium      |
-| [BadType](Dragon%20CTF%202019/Teaser/BadType)                          | Dragon CTF 2019 (Teaser)     | Reverse Engineering        | Windows  | x64   | Medium      |
-| [Pipeline](Dragon%20CTF%202018/Main%20event/Pipeline)                         | Dragon CTF 2018              | Exploitation / Programming | Linux    | x64   | Easy/medium |
-| [Production](Dragon%20CTF%202018/Teaser/Production)                       | Dragon CTF 2018 (Teaser)     | Exploitation               | Linux    | x64   | Easy/medium |
-| [Filesystem](CONFidence%20CTF%202017/Main%20event/Filesystem)                       | CONFidence CTF 2017          | Exploitation               | Linux    | x64   | Medium      |
-| [Fastcalc-hardened](CONFidence%20CTF%202017/Main%20event/Fastcalc-hardened)                | CONFidence CTF 2017          | Exploitation               | Windows  | x86   | Hard        |
-| [Fastcalc](CONFidence%20CTF%202017/Teaser/Fastcalc)                         | CONFidence CTF 2017 (Teaser) | Exploitation               | Windows  | x86   | Hard        |
-| [Entree](CONFidence%20CTF%202016/Main%20event/Entree)                           | CONFidence CTF 2016          | Exploitation               | Windows  | x86   | Medium      |
-| [Antipasto](CONFidence%20CTF%202016/Main%20event/Antipasto)                        | CONFidence CTF 2016          | Exploitation               | Linux    | x86   | Easy        |
-| [Bubblegum](CONFidence%20CTF%202016/Teaser/Bubblegum)                        | CONFidence CTF 2016 (Teaser) | Exploitation               | Windows  | x86   | Hard        |
-| [Night Sky](CONFidence%20CTF%202015/Main%20event/Night%20Sky)                        | CONFidence CTF 2015          | Exploitation               | Linux    | x64   | Hard        |
-| [Quarantine](CONFidence%20CTF%202015/Teaser/Quarantine)                       | CONFidence CTF 2015 (Teaser) | Exploitation               | Linux    | x64   | Hard        |
-| [Crypto Machine](CONFidence%20CTF%202014/Main%20event/Crypto%20Machine)                   | CONFidence CTF 2014          | Exploitation               | Linux    | x64   | Medium      |
-| [Memory](CONFidence%20CTF%202014/Main%20event/Memory)                           | CONFidence CTF 2014          | Reverse Engineering        | Windows  | x86   | Easy        |
-| [Multipurpose Calculation Machine](CONFidence%20CTF%202014/Teaser/Multipurpose%20Calculation%20Machine) | CONFidence CTF 2014 (Teaser) | Exploitation               | Linux    | x86   | Medium      |
+| [Nim](Dragon%20CTF%202021/Nim) | Dragon CTF 2021 | Exploitation | Linux | x64 | Medium |
+| [BitmapManager](Dragon%20CTF%202020/BitmapManager) | Dragon CTF 2020 | Exploitation | Windows | x64 | Hard |
+| [BabyKernel](Dragon%20CTF%202019/Main%20event/BabyKernel) | Dragon CTF 2019 | Exploitation | Windows | x64 | Medium |
+| [BadType](Dragon%20CTF%202019/Teaser/BadType) | Dragon CTF 2019 (Teaser) | Reverse Engineering | Windows | x64 | Medium |
+| [Pipeline](Dragon%20CTF%202018/Main%20event/Pipeline) | Dragon CTF 2018 | Exploitation / Programming | Linux | x64 | Easy/medium |
+| [Production](Dragon%20CTF%202018/Teaser/Production) | Dragon CTF 2018 (Teaser) | Exploitation | Linux | x64 | Easy/medium |
+| [Filesystem](CONFidence%20CTF%202017/Main%20event/Filesystem) | CONFidence CTF 2017 | Exploitation | Linux | x64 | Medium |
+| [Fastcalc-hardened](CONFidence%20CTF%202017/Main%20event/Fastcalc-hardened) | CONFidence CTF 2017 | Exploitation | Windows | x86 | Hard |
+| [Fastcalc](CONFidence%20CTF%202017/Teaser/Fastcalc) | CONFidence CTF 2017 (Teaser) | Exploitation | Windows | x86 | Hard |
+| [Entree](CONFidence%20CTF%202016/Main%20event/Entree) | CONFidence CTF 2016 | Exploitation | Windows | x86 | Medium |
+| [Antipasto](CONFidence%20CTF%202016/Main%20event/Antipasto) | CONFidence CTF 2016 | Exploitation | Linux | x86 | Easy |
+| [Bubblegum](CONFidence%20CTF%202016/Teaser/Bubblegum) | CONFidence CTF 2016 (Teaser) | Exploitation | Windows | x86 | Hard |
+| [Night Sky](CONFidence%20CTF%202015/Main%20event/Night%20Sky) | CONFidence CTF 2015 | Exploitation | Linux | x64 | Hard |
+| [Quarantine](CONFidence%20CTF%202015/Teaser/Quarantine) | CONFidence CTF 2015 (Teaser) | Exploitation | Linux | x64 | Hard |
+| [Crypto Machine](CONFidence%20CTF%202014/Main%20event/Crypto%20Machine) | CONFidence CTF 2014 | Exploitation | Linux | x64 | Medium |
+| [Memory](CONFidence%20CTF%202014/Main%20event/Memory) | CONFidence CTF 2014 | Reverse Engineering | Windows | x86 | Easy |
+| [Multipurpose Calculation Machine](CONFidence%20CTF%202014/Teaser/Multipurpose%20Calculation%20Machine) | CONFidence CTF 2014 (Teaser) | Exploitation | Linux | x86 | Medium |
 
 ## Running the tasks
 
